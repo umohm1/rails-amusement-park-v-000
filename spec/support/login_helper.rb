@@ -2,7 +2,8 @@ module LoginHelper
 
   def visit_signup
     visit '/'
-    click_link('Sign Up')
+    # save_and_open_page
+    click_on('Sign Up')
   end
 
   def user_signup

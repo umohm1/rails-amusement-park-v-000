@@ -223,7 +223,7 @@ describe 'Feature Test: Go on a Ride', :type => :feature do
     click_link('See attractions')
     click_link("Go on #{@teacups.name}")
     click_button("Go on this ride")
-    expect(page).to have_content("sad")
+    expect(page).to have_content("happy")
   end
 
   it "when the user is tall enough and has enough tickets, clicking on 'Go on this ride' displays a thank you message" do

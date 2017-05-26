@@ -38,7 +38,7 @@ group :test, :development do
   gem "rspec-rails"
   gem "capybara"
   gem "selenium-webdriver"
-  gem "better_errors"
+  #gem "better_errors"
   gem "sprockets_better_errors"
   gem "binding_of_caller"
   gem "factory_girl_rails"
@@ -47,6 +47,7 @@ group :test, :development do
   gem "sqlite3"
   gem "pry"
   gem "rack_session_access"
+  gem 'launchy'
 end
 
 group :production do
